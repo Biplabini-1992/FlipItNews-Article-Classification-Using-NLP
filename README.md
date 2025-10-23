@@ -36,7 +36,7 @@ Domain: Natural Language Processing (NLP) • Tech Stack: Python | scikit-learn 
   - Functionalizing code to train multiple classifiers
 
 ## Project Workflow
-  #### 1. Data Loading & Exploration
+  - #### 1. Data Loading & Exploration
   
     - Installed and imported required libraries: pandas, scikit-learn, nltk, matplotlib, seaborn.
     
@@ -44,7 +44,7 @@ Domain: Natural Language Processing (NLP) • Tech Stack: Python | scikit-learn 
     
     - Checked distribution of articles across categories.
   
-  #### 2. Text Preprocessing
+ - #### 2. Text Preprocessing
   
     - Removed non-letter characters.
     
@@ -56,7 +56,7 @@ Domain: Natural Language Processing (NLP) • Tech Stack: Python | scikit-learn 
     
     - Displayed examples of articles before and after preprocessing.
   
-  #### 3. Encoding & Vectorization
+  - #### 3. Encoding & Vectorization
   
     - Encoded the target variable (Category) using LabelEncoder.
     
@@ -68,25 +68,26 @@ Domain: Natural Language Processing (NLP) • Tech Stack: Python | scikit-learn 
     
     - Split dataset into train (75%) and test (25%) sets.
   
-  #### 4. Model Training & Evaluation
+  - #### 4. Model Training & Evaluation
   
-  Trained and compared multiple classifiers:
-  
-  Model	Description
-  Naive Bayes	Baseline probabilistic model
-  Decision Tree	Tree-based classifier for interpretability
-  Nearest Neighbors	Instance-based classifier
-  Random Forest	Ensemble of Decision Trees
-  
-  Evaluated models using:
-  
-  Accuracy
-  
-  Confusion Matrix
-  
-  Classification Report (Precision, Recall, F1-Score)
-  
-  Observed and commented on relative performance of each model.
+    - Trained and compared multiple classifiers:
+      
+      | Model | Description |
+      |:------------------|:--------------------------------------|
+      | Naive Bayes        | Baseline probabilistic model           |
+      | Decision Tree      | Tree-based classifier for interpretability |
+      | Nearest Neighbors  | Instance-based classifier              |
+      | Random Forest      | Ensemble of Decision Trees             |
+
+    - Evaluated models using:
+    
+      - Accuracy
+      
+      - Confusion Matrix
+      
+      - Classification Report (Precision, Recall, F1-Score)
+    
+    - Observed and commented on relative performance of each model.
 
 ## Key Results & Insights
 
