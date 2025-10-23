@@ -23,70 +23,70 @@ Domain: Natural Language Processing (NLP) • Tech Stack: Python | scikit-learn 
 
 ## Concepts Practiced
   
-  Text Preprocessing: Removing non-letters, stopwords, tokenization, lemmatization
+  - Text Preprocessing: Removing non-letters, stopwords, tokenization, lemmatization
   
-  Text Vectorization: Bag of Words, TF-IDF
+  - Text Vectorization: Bag of Words, TF-IDF
   
-  Multi-class Classification using ML models
+  - Multi-class Classification using ML models
   
-  Train-Test split and data transformation
+  - Train-Test split and data transformation
   
-  Evaluation: Accuracy, Confusion Matrix, Classification Report
+  - Evaluation: Accuracy, Confusion Matrix, Classification Report
   
-  Functionalizing code to train multiple classifiers
+  - Functionalizing code to train multiple classifiers
 
 ## Project Workflow
-1️⃣ Data Loading & Exploration
-
-Installed and imported required libraries: pandas, scikit-learn, nltk, matplotlib, seaborn.
-
-Loaded dataset and examined its structure.
-
-Checked distribution of articles across categories.
-
-2️⃣ Text Preprocessing
-
-Removed non-letter characters.
-
-Tokenized the text.
-
-Removed stopwords.
-
-Performed lemmatization.
-
-Displayed examples of articles before and after preprocessing.
-
-3️⃣ Encoding & Vectorization
-
-Encoded the target variable (Category) using LabelEncoder.
-
-Vectorized the text using:
-
-Bag of Words
-
-TF-IDF (user-selectable option)
-
-Split dataset into train (75%) and test (25%) sets.
-
-4️⃣ Model Training & Evaluation
-
-Trained and compared multiple classifiers:
-
-Model	Description
-Naive Bayes	Baseline probabilistic model
-Decision Tree	Tree-based classifier for interpretability
-Nearest Neighbors	Instance-based classifier
-Random Forest	Ensemble of Decision Trees
-
-Evaluated models using:
-
-Accuracy
-
-Confusion Matrix
-
-Classification Report (Precision, Recall, F1-Score)
-
-Observed and commented on relative performance of each model.
+  #### 1. Data Loading & Exploration
+  
+    - Installed and imported required libraries: pandas, scikit-learn, nltk, matplotlib, seaborn.
+    
+    - Loaded dataset and examined its structure.
+    
+    - Checked distribution of articles across categories.
+  
+  #### 2. Text Preprocessing
+  
+    - Removed non-letter characters.
+    
+    - Tokenized the text.
+    
+    - Removed stopwords.
+    
+    - Performed lemmatization.
+    
+    - Displayed examples of articles before and after preprocessing.
+  
+  #### 3. Encoding & Vectorization
+  
+    - Encoded the target variable (Category) using LabelEncoder.
+    
+    - Vectorized the text using:
+    
+    - Bag of Words
+    
+    - TF-IDF (user-selectable option)
+    
+    - Split dataset into train (75%) and test (25%) sets.
+  
+  #### 4. Model Training & Evaluation
+  
+  Trained and compared multiple classifiers:
+  
+  Model	Description
+  Naive Bayes	Baseline probabilistic model
+  Decision Tree	Tree-based classifier for interpretability
+  Nearest Neighbors	Instance-based classifier
+  Random Forest	Ensemble of Decision Trees
+  
+  Evaluated models using:
+  
+  Accuracy
+  
+  Confusion Matrix
+  
+  Classification Report (Precision, Recall, F1-Score)
+  
+  Observed and commented on relative performance of each model.
 
 ## Key Results & Insights
 
